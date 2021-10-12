@@ -1,0 +1,5 @@
+{{cookiecutter.License}} License ({{cookiecutter.License}})
+
+Copyright (c) {{cookiecutter.Year}} {{cookiecutter.Organization}}
+
+
