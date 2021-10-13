@@ -16,9 +16,9 @@ def create_app():
     from app.src.blueprints.example_one_blueprint import example_one
     from app.src.blueprints.example_two_blueprint import example_two
 
-    app = Flask("jeetproject", static_folder="app/assets")
+    app = Flask("{{cookiecutter.project_name}}", static_folder="app/assets")
 
-    # Register blueprints jeetproject
+    # Register blueprints {{cookiecutter.project_name}}
     app.register_blueprint(example_one, url_prefix='/api/one')  # URL should be http://server-ip:port/api/one
     app.register_blueprint(example_two, url_prefix='/api/two')  # URL should be http://server-ip:port/api/two
     app.register_blueprint(swagger_ui_blueprint, url_prefix=SWAGGER_URL)

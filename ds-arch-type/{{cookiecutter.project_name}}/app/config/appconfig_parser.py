@@ -20,4 +20,4 @@ def log_parser():
 
 
 if __name__ == '__main__':
-    print(parser().getboolean('stream_config', 'batch_status'))
+    print(parser().getboolean('key', 'value'))
