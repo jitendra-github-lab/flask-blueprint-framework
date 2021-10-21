@@ -6,7 +6,7 @@ Follow the below steps to setup and run application
 		* pip install cookiecutter
 		
 * Build New Project
-	1. Download/Git clone cookiecutter template
+	1. Download/Git clone cookiecutter template from - https://github.com/jitendra-github-lab/flask-blueprint-framework.git
 	2. Entered into flask-blueprint-framework folder and execute below command to create new project 
 	   provide all the required input (Note: In case of blank input it will take default as input)
 		* cookiecutter ds-arch-type
