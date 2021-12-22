@@ -27,7 +27,7 @@ def index():
       tags:
           - Test GET Response from example_one_blueprint
     """
-    output = 'Getting response from example one.';
+    output = 'Getting response from demo-one.';
     return jsonify(output)
 
 
@@ -47,6 +47,6 @@ def index_two():
           - swagger response from example_one_blueprint
     """
     logger.debug("GET Method called 2")
-    output = 'Getting response from example one index_two.';
+    output = 'Getting response from demo-one index_two.';
     return jsonify(output)
     

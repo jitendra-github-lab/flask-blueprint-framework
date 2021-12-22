@@ -19,8 +19,8 @@ def create_app():
     app = Flask("{{cookiecutter.project_name}}", static_folder="app/assets")
 
     # Register blueprints {{cookiecutter.project_name}}
-    app.register_blueprint(example_one, url_prefix='/api/one')  # URL should be http://server-ip:port/api/one
-    app.register_blueprint(example_two, url_prefix='/api/two')  # URL should be http://server-ip:port/api/two
+    app.register_blueprint(example_one, url_prefix='/api/demo-one')  # URL should be http://server-ip:port/api/demo-one
+    app.register_blueprint(example_two, url_prefix='/api/demo-two')  # URL should be http://server-ip:port/api/demo-two
     app.register_blueprint(swagger_ui_blueprint, url_prefix=SWAGGER_URL)
 
     @app.route("/")

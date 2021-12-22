@@ -1,4 +1,4 @@
-from flask import Blueprint, request, jsonify
+from flask import Blueprint, request
 from app.src.services.example_service_two import ServiceTwo
 
 '''
@@ -34,4 +34,4 @@ def index():
 
     obj = ServiceTwo()
     output = obj.service_method(data)
-    return jsonify(output)
+    return output
