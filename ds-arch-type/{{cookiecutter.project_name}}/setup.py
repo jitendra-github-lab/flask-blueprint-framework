@@ -18,7 +18,6 @@ setup(
     name='{{cookiecutter.project_name}}',
     version='{{cookiecutter.Version}}',
     packages=find_packages(exclude=["*_tests"]),
-    license='{{cookiecutter.License}}',
     long_description=open('README.md').read(),
     install_requires=install_required_libs
 )
