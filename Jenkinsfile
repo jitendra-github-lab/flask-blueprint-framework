@@ -4,7 +4,7 @@ pipeline {
 		stage('One'){
 			steps{
 				script { 
-				 CI_COOMIT = sh(script: 'git rev-parse --short HEAD', returnStdout: true)? trim()
+				 CI_COOMIT = git tag -f -m "Test tag" -a %Tag_Name% %SHA%
 				 bat("echo" CI_COOMIT)
 				}
 			}
