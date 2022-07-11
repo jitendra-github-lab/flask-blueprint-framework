@@ -5,7 +5,7 @@ pipeline {
 			steps{
 				script { 
 				 CI_COOMIT = sh(script: 'git rev-parse --short HEAD', returnStdout: true)? trim()
-				 echo "${CI_COOMIT}"
+				 bat("echo" CI_COOMIT)
 				}
 			}
 		}
