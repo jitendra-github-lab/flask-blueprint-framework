@@ -1,10 +1,10 @@
 pipeline {
 	agent any
 	stages {
-		stage('One'){
+		stage('Stage-One'){
 			steps{
 				script { 
-					CI_COMMIT = sh(returnStdout: true, script: "git tag --points-at HEAD")
+					CI_COMMIT = sh(script: "git tag --points-at HEAD", returnStdout: true).trim()
 					echo "TAG ID: ${CI_COMMIT}"
 				}
 			}
