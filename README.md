@@ -20,7 +20,7 @@ Follow the below steps to setup and run application
 	5. Set environment variable (For logger and configuration files)
 		* environment variable name will be : <project_name>__config
 		* Path : <Full path till project config directory>
-		#(Example: setx -m <project_name_cnfig C:\base-drectory\cookicutter-template\<project-name-here>\app\config\)
+		#(Example: setx -m <project_name_cnfig> C:\base-drectory\cookicutter-template\<project-name-here>\app\config\)
 	
 * Run and Test Project
 	* Run
