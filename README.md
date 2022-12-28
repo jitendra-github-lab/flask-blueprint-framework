@@ -6,7 +6,7 @@ Follow the below steps to setup and run application
 		* pip install cookiecutter
 		
 * Build New Project
-	# Note: Open command prompt - Run as Administrator 
+	#Note: Open command prompt - Run as Administrator 
 	1. Download/Git clone cookiecutter template from - https://github.com/jitendra-github-lab/flask-blueprint-framework.git
 	2. Entered into flask-blueprint-framework folder and execute below command to create new project 
 	   provide all the required input (Note: In case of blank input it will take default as input)
@@ -21,7 +21,7 @@ Follow the below steps to setup and run application
 		* environment variable name will be : <project_name>__config
 		* Path : <Full path till project config directory>
 		#(Example: setx -m <project_name_cnfig> C:\base-drectory\cookicutter-template\<project-name-here>\app\config\)
-		# Note: Post setting up the environment variable please close the current CMD and start new CMD as Administrator
+		#Note: Post setting up the environment variable please close the current CMD and start new CMD as Administrator
 	
 * Run and Test Project
 	* Run
